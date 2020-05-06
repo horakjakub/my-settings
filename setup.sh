@@ -1,4 +1,5 @@
-git clone https://github.com/horakjakub/vim-settings ../.vim 
+#!/bin/zsh
+# git clone https://github.com/horakjakub/vim-settings ../.vim 
 
 sudo pacman -S gvim
 sudo pacman -S fzf

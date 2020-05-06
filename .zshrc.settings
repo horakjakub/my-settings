@@ -1,11 +1,7 @@
-# remeber about adding in oryginal config file: 
-# . ~/.zsh-settings/.zshrc
-#ZSH_THEME="robbyrussell"
-
 # FZF commands for Manjaro terminal. Have to be added into main zshrc file (not sure why)
 # Source: https://wiki.archlinux.org/index.php/Fzf
-# source /usr/share/fzf/key-bindings.zsh
-# source /usr/share/fzf/completion.zsh
+source /usr/share/fzf/key-bindings.zsh
+source /usr/share/fzf/completion.zsh
 
 # removing username@computer from 'agnoster' color scheme in ohmyzsh
 prompt_context() {}
